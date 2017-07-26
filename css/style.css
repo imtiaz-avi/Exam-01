@@ -1,0 +1,156 @@
+body {
+    margin: 0;
+}
+
+.header-section {
+    background: url(../images/hbg.jpg) no-repeat;
+    background-size: cover;
+    padding-top: 30px;
+    height: 100vh;
+    position: relative;
+}
+
+.tri {
+	margin-top: 10%;
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+    width: 25px;
+}
+
+.content {
+    position: absolute;
+    text-align: center;
+    left: 50%;
+    bottom: 50%;
+    transform: translate(-50%, 50%);
+}
+
+.content h1 {
+    color: #fff;
+    font-weight: 900;
+    text-shadow: 1px 1px 1px black;
+}
+
+.btn-custom {
+	transition: 0.5s;
+    color: #fff;
+    background: blue;
+    background: -webkit-linear-gradient(-90deg, #4b69f5, #445dd1);
+    /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(-90deg, #4b69f5, #445dd1);
+    /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(-90deg, #4b69f5, #445dd1);
+    /* For Firefox 3.6 to 15 */
+    background: linear-gradient(-90deg, #4b69f5, #445dd1);
+    /* Standard syntax */
+    border-radius: 5px;
+    padding: 10px 40px;
+    margin-top: 16px;
+    text-transform: uppercase;
+    font-weight: 600;
+    box-shadow: 1px 1px 2px black;
+}
+
+.content-section {
+    padding: 60px 0;
+    background-color: #f7f7f7;
+}
+
+.header-text {
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+
+.header-text p {
+    max-width: 500px;
+    margin: 0px auto;
+    font-size: 16px;
+    position: relative;
+}
+
+.header-text p:before {
+    position: absolute;
+    content: "";
+    width: 10%;
+    height: 2px;
+    background: red;
+    bottom: -15px;
+    transform: translateX(-50%);
+    left: 50%;
+}
+
+.header-text h1 {
+    text-align: center;
+}
+
+.content1 {
+    padding-top: 5px;
+    padding-top: 0px;
+    text-align: center;
+}
+
+.content-img {
+    margin: 50px auto -5px;
+    display: block;
+    padding: 20px 0;
+}
+
+.content2 h4 {
+    padding: 15px 0px;
+}
+
+.btn-custom:hover {
+    color: #273a7f;
+    background-color: #2198c9;
+    transition: 0.5s;
+}
+.btn-custom1:hover {
+    color: #273a7f;
+    background-color: #2198c9;
+    transition: 0.5s;
+}
+.btn-custom1 {
+	transition: 0.5s;
+    color: #fff;
+    background: blue;
+    background: -webkit-linear-gradient(-90deg, #4b69f5, #445dd1);
+    /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(-90deg, #4b69f5, #445dd1);
+    /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(-90deg, #4b69f5, #445dd1);
+    /* For Firefox 3.6 to 15 */
+    background: linear-gradient(-90deg, #4b69f5, #445dd1);
+    /* Standard syntax */
+    border-radius: 5px;
+    padding: 10px 40px;
+    margin-top: 16px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+
+.content-section-2 {
+    padding: 60px 0;
+}
+
+.container2 {
+    background: url(../images/banner-down.png);
+    background-size: cover;
+    padding: 60px 0;
+}
+
+.container2 h1 {
+    color: #fff;
+    font-size: 50px;
+    padding: 50px 0 0;
+    text-transform: uppercase;
+}
+
+.footer-content {
+    padding: 15px 0;
+}
+
+footer {
+    background: #E6E6E6;
+}
